@@ -23,12 +23,14 @@ public class BlockInit
 {
 	public static final Block shrek_ore = null;
 	public static final Block special_block = null;
+	public static final Block big_black_cock = null;
 	
 	@SubscribeEvent
 	public static void registerBlocks(final RegistryEvent.Register<Block> event) 
 	{
 		event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3f).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(3)).setRegistryName("shrek_ore"));
 		event.getRegistry().register(new SpecialBlock(Block.Properties.create(Material.WOOD).hardnessAndResistance(3F).harvestLevel(0).harvestTool(ToolType.AXE).sound(SoundType.WOOD)).setRegistryName("special_block"));
+		event.getRegistry().register(new Block(Block.Properties.create(Material.SAND).hardnessAndResistance(1F).harvestLevel(0).harvestTool(ToolType.SHOVEL).sound(SoundType.WET_GRASS)).setRegistryName("big_black_cock"));
 	}
 	
 	@SubscribeEvent
@@ -36,5 +38,6 @@ public class BlockInit
 	{
 		event.getRegistry().register(new BlockItem(shrek_ore, new Item.Properties().maxStackSize(69).group(ShrekItemGroup.instance)).setRegistryName("shrek_ore"));
 		event.getRegistry().register(new BlockItem(special_block, new Item.Properties().group(ShrekItemGroup.instance)).setRegistryName("special_block"));
+		event.getRegistry().register(new BlockItem(big_black_cock, new Item.Properties().group(ShrekItemGroup.instance)).setRegistryName("big_black_cock"));
 	}
 }

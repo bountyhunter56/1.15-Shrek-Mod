@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "bsm:blocks/big_black_cock"
+    }
+}

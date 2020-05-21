@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bsm:shrek_ore"
+  },
+  "result": "bsm:shringot",
+  "experience": 5.0,
+  "cookingtime": 200
+}

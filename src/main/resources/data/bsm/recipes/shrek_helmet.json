@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "bsm:shringot"
+    }
+  },
+  "result": {
+    "item": "bsm:shrek_helmet"
+  }
+}
+
+
