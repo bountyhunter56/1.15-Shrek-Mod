@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "bsm:items/shrek_shovel"
+	}
+}

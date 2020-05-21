@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "bsm:block/special_block" },
+		"facing=south": { "model": "bsm:block/special_block", "y": 180 },
+		"facing=west": { "model": "bsm:block/special_block", "y": 270 },
+		"facing=east": { "model": "bsm:block/special_block", "y": 90 }
+	}
+}
