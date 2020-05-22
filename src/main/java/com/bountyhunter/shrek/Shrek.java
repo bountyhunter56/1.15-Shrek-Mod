@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.bountyhunter.shrek.init.ItemInit;
+import com.bountyhunter.shrek.init.ModTileEntityTypes;
 import com.bountyhunter.shrek.world.gen.ShrekOreGen;
 
 import net.minecraft.item.ItemGroup;
@@ -38,6 +39,8 @@ public class Shrek
         instance = this;
         
         MinecraftForge.EVENT_BUS.register(this);
+        
+        ModTileEntityTypes.TILE_ENTITY_TYPES.register(modeventbus);
     }
 
     private void setup(final FMLCommonSetupEvent event)
